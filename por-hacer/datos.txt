@@ -13,3 +13,6 @@ Para cargar al repositorio en git
    // copiamos el link del repositorio para poder cargar al marte
    git remote add origin https://github.com/gcalixto/node-por-hacer.git
    git push -u origin master // con el git push -u eso ayuda a setear el origen por defecto apra no estar agregando el link anteriror
+   git tag -a v1.0.0 -m "Primera Version" // -a es hacer una anotacion -m para ponere un mensaje
+   git push --tags // para subir el tag a github
+   // para el realise para que tome forma se puede crear desde la misma pagina
