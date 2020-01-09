@@ -16,3 +16,4 @@ Para cargar al repositorio en git
    git tag -a v1.0.0 -m "Primera Version" // -a es hacer una anotacion -m para ponere un mensaje
    git push --tags // para subir el tag a github
    // para el realise para que tome forma se puede crear desde la misma pagina
+   //ultima modificacion
