@@ -1,0 +1,15 @@
+Para cargar al repositorio en git
+
+1. primero creamos el repositorio desde la web de github 
+2. en la raiz del proyecto creamos el archivo README.md para la descripcion del proyecto aparezca en github 
+3. Creamos el archivo .gitignore esto con el fin que no carguemos carpetas que no queremos subir a repositorio
+   en este caso la carpeta node_modules/
+4. desde la carpeta raiz en cmd ejecutamos
+   git init // Para iniciar git en el proyecto
+   git status // para ver como estan los archivos que se cargaran al repositorio estan en rojo
+   git add . // con esto agregamos los archivos al state o fotografia snashop para que de ahi se manden al repositovio
+   git status // ya agregamos al state se ponene en verde
+   git commit -m "Primer Commit" // con esto terminarmos en la parte local listo para ser envaidos al repositorio
+   // copiamos el link del repositorio para poder cargar al marte
+   git remote add origin https://github.com/gcalixto/node-por-hacer.git
+   git push -u origin master // con el git push -u eso ayuda a setear el origen por defecto apra no estar agregando el link anteriror
